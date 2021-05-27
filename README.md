@@ -1,4 +1,4 @@
-# RBX1 - ROS
+# Remap
 Se cambia provisionalmente el nombre del topic "/cmd_vel" del nodo "arbotix" a "/turtle1/cmd_vel".
 
 *El ejercicio consiste en que utilizando el comando del teleoperado(turtle_teleop_key), del paquete de "turtlesim", se controla utilizando las flechas del teclado el robot del paquete "rbx1"; aprovechando que tanto "turtlesim" como "rbx1" tienen el mismo tipo de mensaje en el comando de velocidad se puede utilizar el comando "remap" para cambiar el nombre del topic suscriptor del nodo "arbotix" de "rbx1".*
